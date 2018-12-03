@@ -1,11 +1,11 @@
 const express = require('express');
 let {PythonShell} = require('python-shell')
 const config = require('../config');
-var getRecommendations = function(userID, callback){
+var getRecommendations = function(mood, callback){
     var options = {
         args:
         [
-            userID
+            mood
         ],
         pythonPath: config.data.pythonPath,
         scriptPath: config.data.scriptPath

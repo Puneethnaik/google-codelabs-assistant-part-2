@@ -1,5 +1,5 @@
 var data = {
-    'pythonPath' : '/usr/bin/python3.4',
+    'pythonPath' : '/home/puneeth/miniconda3/bin/python',
     'scriptPath' : '/home/puneeth/Projects/reva_hackathon/utilities/',
 }
 module.exports = {
